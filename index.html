@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS - for</title>
+</head>
+<body>
+    <script>
+        let priceRent = {
+            OpiumPD: 100,
+            TimPD: 150,
+            AnnaArt: 200,
+            LuxPole: 120,
+            SkyPole: 130,
+        };
+        for (let key in priceRent) {
+            console.log(priceRent[key]);
+        }  
+
+        let week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+        for (let i=0; i<week.length; i++) {
+            console.log(week[i]);
+        };        
+
+        let numbers = 10;
+        for (let i=1; i<=numbers; i++) {
+            console.log(i);
+        };
+    </script>
+</body>
+</html>
